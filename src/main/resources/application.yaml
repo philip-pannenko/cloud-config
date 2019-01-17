@@ -1,9 +1,0 @@
-server:
-    port: 8888
-spring:
-    cloud:
-      config:
-        server:
-          git:
-            uri: git@github.com:philip-pannenko/cloud-properties.git
-            clone-on-start: true
