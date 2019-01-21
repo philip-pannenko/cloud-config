@@ -10,3 +10,11 @@ The id_rsa file *MUST* have the words 'RSA' in the title. Other values there *WI
 
 Run the docker via:
 `docker run -p 8888:8888 -v ~/.ssh:/root/.ssh aistated/net.pannenko.cicd.cloud-config`
+
+```
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+```
